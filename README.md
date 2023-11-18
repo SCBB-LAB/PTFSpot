@@ -57,14 +57,15 @@ file_for_tuning: file containing label (0/1) and sequence (positive and negative
 ## Running script
 
 To detect the TFBS, In parent directory execute following command:
-```
-Module 1: Identify TFBS only by providing sequence information in <i>Arabidopsis thaliana</i>
 
+Module 1: Identify TFBS only by providing sequence information in <i>Arabidopsis thaliana</i>
+```
 sh M1.sh <fasta file> <TF> <folder path> <ChIP-Seq|DAP-Seq>
 eg: ./M1 test ABF2 folderpath DAP-Seq
+```
 
 Module 2: Transformer-DenseNet system (identiy TF regions within sequence with the corresponding TF protein structure)
-
+```
 sh M2.sh <fasta file> <folder path> <PDB file>
 eg: ./M2 genomic_sequence folderpath ABF2
 

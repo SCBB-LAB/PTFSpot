@@ -64,7 +64,7 @@ sh M1.sh <fasta file> <TF> <folder path> <ChIP-Seq|DAP-Seq>
 eg: ./M1 test ABF2 folderpath DAP-Seq
 ```
 
-Module 2: Transformer-DenseNet system (identiy TF regions within sequence with the corresponding TF protein structure)
+Module 2: Transformer-DenseNet system (identify TF regions within sequence with the corresponding TF protein structure)
 ```
 sh M2.sh <fasta file> <folder path> <PDB file>
 eg: ./M2 genomic_sequence folderpath ABF2

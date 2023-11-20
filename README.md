@@ -19,14 +19,15 @@ The latest version of the package can be downloaded from the GitHub [repository]
 TFBS Models for Module 1 can be downloaded from [here](https://scbb.ihbt.res.in/PTFSpot/download.php).
 
 ## Requirements
-
+```
 1. Python3.6 or higher
 2. python module Numpy, keras, tensorflow, plotly, pandas, bayesian-optimization
 3. bedops
 4. Bedtools
+```
 
 ## File description
-
+```
 1. hyper_param.py = Python script build model implementing hyperparameter tuning
 2. file_for_tuning: file containing label (0/1) and sequence (positive and negative instances). All in one line separated by tab for a single instance.
 3. M1 = Module 1 execution script.
@@ -37,6 +38,7 @@ TFBS Models for Module 1 can be downloaded from [here](https://scbb.ihbt.res.in/
 8. bimodal.h5  = Universal Transformer-DenseNet System.
 9. pdbpar.py = pdb file parser
 10. ptfspot.py = universal model script
+```
 
 ## Note
 

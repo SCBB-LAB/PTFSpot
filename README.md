@@ -1,8 +1,7 @@
 # PTFSpot
 
 <p align="center">
-  <img src="logo.png" style="
-width:80%; height: 450px; " />
+  <img src="logo.png" style="width:80%; height: 450px; " />
 </p>
 
 
@@ -23,8 +22,8 @@ TFBS Models for Module 1 can be downloaded from [here](https://scbb.ihbt.res.in/
 ```
 1. Python3.6 or higher
 2. python module Numpy, keras, tensorflow, plotly, pandas, bayesian-optimization
-3. bedops
-4. Bedtools
+3. bedops (sudo apt-get install bedops)
+4. Bedtools (sudo apt-get install bedtools)
 ```
 
 ## File description

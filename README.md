@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="logo.png" style="
-width:100%; height: 350px; " />
+width:80%; height: 450px; " />
 </p>
 
 

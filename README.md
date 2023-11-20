@@ -42,8 +42,8 @@ TFBS Models for Module 1 can be downloaded from [here](https://scbb.ihbt.res.in/
 
 ## Note
 
-Please place the downloaded model ("model.h5") in "model" folder (An example is provided).
-Always place your TF pdb file in "pdb" folder (An example is provided).
+<li>Please place the downloaded model ("model.h5") in "model" folder (an example is provided).</li>
+<li></li>Always place your TF pdb file in "pdb" folder (an example is provided).</li>
 
 
 ## To build model implementing hyperparameter tuning

@@ -80,8 +80,8 @@ python3 make-plot.py seq1.csv (filename) (generated plots are interactive)
 
 TFBS detection module gives output in following format 
 
-1. ABF1_predict = TFBS result for module 1
-2. ABF1_genomic_sequence.txt = TF regions result for module 2
+1. ABF1_predict = TFBS result for module 1 (Final result: ID, Start, End, TFBS)
+2. ABF1_genomic_sequence.txt = TF regions result for module 2 (Final result: ID, Start, End)
 
 
 ## Citation

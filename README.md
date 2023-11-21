@@ -15,7 +15,7 @@ Unlike animals, variability in transcription factors (TF) and their binding site
 ## Architecture
 
 <p align="center">
-  <img src="Figure.png" style="width:80%; height: 450px; " />
+  <img src="Figure.png" style="width:80%; height: 900px; " />
 </p>
 
 

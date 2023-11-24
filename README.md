@@ -97,4 +97,4 @@ TFBS detection module gives output in following format
 
 ## Citation
 
-Citation: Gupta S, Kesarwani V, Bhati U, Jyoti, Shankar R (2023) Deep co-learning on transcription factors and their binding sites attains impeccable universality in plants. bioRxiv 2023.
+Citation: Gupta S, Kesarwani V, Bhati U, Jyoti, Shankar R (2023) Deep co-learning on transcription factors and their binding sites attains impeccable universality in plants. bioRxiv 2023. Read research article here [here] (https://doi.org/10.1101/2023.11.16.567355).

@@ -36,6 +36,7 @@ The latest version of the package can be downloaded from the GitHub [repository]
 2. python module Numpy, keras, tensorflow, plotly, pandas, bayesian-optimization
 3. bedops (sudo apt-get install bedops)
 4. Bedtools (sudo apt-get install bedtools)
+5. [Alphafold2](https://alphafold.ebi.ac.uk/) generated PDB files 
 ```
 
 ## File description

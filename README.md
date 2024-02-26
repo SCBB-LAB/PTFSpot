@@ -53,7 +53,7 @@ The latest version of the package can be downloaded from the GitHub [repository]
 
 ## Note
 
-Always place your [Alphafold2](https://alphafold.ebi.ac.uk/) generated TF pdb file in "pdb" folder (an example is provided).
+Always place your Alphafold2 (https://alphafold.ebi.ac.uk/) generated TF pdb file in "pdb" folder (an example is provided).
 
 
 ## To build model implementing hyperparameter tuning

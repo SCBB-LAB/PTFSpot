@@ -80,7 +80,7 @@ python3 make-plot.py seq1.csv (filename) (generated plots are interactive)
 
 TFbinding regions detection module gives output in following format 
 
-1. ABF1_genomic_sequence.txt = TF binding regions result (Final result: ID, Start, End)
+1. ABF2_genomic_sequence.txt = TF binding regions result (Final result: ID, Start, End)
 
 
 ## Citation

@@ -36,7 +36,7 @@ The latest version of the package can be downloaded from the GitHub [repository]
 2. python module Numpy, keras, tensorflow, plotly, pandas, bayesian-optimization
 3. bedops (sudo apt-get install bedops)
 4. Bedtools (sudo apt-get install bedtools)
-5. [Alphafold2](https://alphafold.ebi.ac.uk/) generated PDB files 
+5. Alphafold2 (https://alphafold.ebi.ac.uk/) generated PDB files 
 ```
 
 ## File description
@@ -46,14 +46,14 @@ The latest version of the package can be downloaded from the GitHub [repository]
 3. PTFSpot.py = Python script for detecting binding regions from sequences provided.
 4. genomic_sequence = dummy fasta sequence.
 5. M2 = Execution script.
-6. bimodal.h5  = Universal Transformer-DenseNet System (Sequence and Alphafold2 generated PDB file).
+6. bimodal.h5  = Universal Transformer-DenseNet System (Sequence and [Alphafold2](https://alphafold.ebi.ac.uk/) generated PDB file).
 7. pdbpar.py = pdb file parser
 8. ptfspot.py = universal model script
 ```
 
 ## Note
 
-<li>Always place your Alphafold2 generated TF pdb file in "pdb" folder (an example is provided).</li>
+<li>Always place your [Alphafold2](https://alphafold.ebi.ac.uk/) generated TF pdb file in "pdb" folder (an example is provided).</li>
 
 
 ## To build model implementing hyperparameter tuning
@@ -70,7 +70,7 @@ To detect the TF binding region, In parent directory execute following command:
 Module: Transformer-DenseNet system (identify TF regions within sequence with the corresponding aplhafold2 generated TF protein structure)
 ```
 unzip deeptfactor.zip
-sh PTFSpot.sh <fasta file> <folder path> <aplhafold2 generated PDB file> <folder path of PTFSpot>
+sh PTFSpot.sh <fasta file> <folder path> <Alphafold2 generated PDB file> <folder path of PTFSpot>
 eg: sh PTFSpot.sh genomic_sequence folderpath ABF2 /home/user/PTFSpot
 
 To generate line plot, execute the following command:

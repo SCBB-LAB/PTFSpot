@@ -7,7 +7,7 @@
 
 ## Description
 
-<b>PTFSpot</b>: Deep co-learning algorithm to discover transcription factor binding site in plants.
+<b>PTFSpot</b>: Deep co-learning on transcription factors and their binding regions attains impeccable universality in plants.
 <br><br>
 Unlike animals, variability in transcription factors (TF) and their binding sites (TFBS) across the plants species is a major problem which most of the existing TFBS finding software fail to tackle, rendering them hardly of any use. This limitation has resulted into underdevelopment of plant regulatory research and rampant misuse of Arabidopsis models, generating misleading results. Here we report a ground-breaking transformers based deep-learning approach, PTFSpot, which learns from TF structures and their binding sites to bring a universal TF-DNA interaction model. During a series of extensive bench-marking studies, it not only outperformed the existing software by >30% lead, but also delivered consistently >90% accuracy even for those species and TF families which were never encountered during model building process. PTFSpot makes it possible now to accurately annotate TFBS across novel plant genomes even in the total lack of any TF information.
 
@@ -19,17 +19,16 @@ Unlike animals, variability in transcription factors (TF) and their binding site
 </p>
 
 
-<b>Figure: Implementation of the PTFSpot Deep Co-learning system using Transformers and DenseNet to identify TFBS regions across plant genomes.</b> The first part is a 14 heads attention transformers which learn from the dimeric, pentameric and heptameric words representations of any given sequence arising from anchoring prime motif’s context. In the parallel, the bound TF’s structure is learned by the DenseNet. Learning by both partners are joined finally together, which is passed on to the final fully connected layers to generate the probability score for existence of binding region in the center.
+<b>Figure: Implementation of the PTFSpot Deep Co-learning system using Transformers and DenseNet to identify TF binding regions across plant genomes.</b> The first part is a 14 heads attention transformers which learn from the dimeric, pentameric and heptameric words representations of any given sequence arising from anchoring prime motif’s context. In the parallel, the bound TF’s structure is learned by the DenseNet. Learning by both partners are joined finally together, which is passed on to the final fully connected layers to generate the probability score for existence of binding region in the center.
 
 
 ## Web server
 
-PTFSpot can be used directly from [this](https://scbb.ihbt.res.in/PTFSpot) web server. This server implements trained models and can process both individual sequences or fasta files.
+PTFSpot can be used directly from [this](https://scbb.ihbt.res.in/PTFSpot) web server. This server implements trained model and can process both individual sequences or fasta files.
 
 ## Package installation
 
 The latest version of the package can be downloaded from the GitHub [repository](https://github.com/SCBB-LAB/PTFSpot).
-TFBS Models for Module 1 can be downloaded from [here](https://scbb.ihbt.res.in/PTFSpot/download.php).
 
 ## Requirements
 ```

@@ -82,9 +82,7 @@ To generate line plot, execute the following command:
 python3 make-plot.py seq1.csv (filename) (generated plots are interactive)
 ```
 
-==================
-*Output description*
-==================
+## Output description
 
 TFBS detection module gives output in following format 
 

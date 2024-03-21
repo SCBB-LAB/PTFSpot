@@ -74,7 +74,7 @@ Module: Transformer-DenseNet system (identify TF binding regions within sequence
 To detect the TF binding region, In parent directory execute following command:
 ```
 unzip deeptfactor.zip
-chmod a+x M2.sh
+chmod a+x ptfspot.sh
 sh PTFSpot.sh <fasta file> <folder path> <Alphafold generated PDB file> <folder path of PTFSpot>
 eg: sh PTFSpot.sh genomic_sequence folderpath ABF2 /home/user/PTFSpot
 

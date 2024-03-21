@@ -23,7 +23,7 @@ Unlike animals, variability in transcription factors (TF) and their binding regi
 
 ## Web server
 
-PTFSpot can be used directly from [this](https://scbb.ihbt.res.in/PTFSpot) web-server. This server implements trained models and can process both individual sequences or fasta files. Also, a tutorial is hosted on the [PTFSpot](https://scbb.ihbt.res.in/PTFSpot/tutorial.php) web-server.
+PTFSpot can be used directly from [this](https://scbb.ihbt.res.in/PTFSpot) web-server. This server implements trained models and can process both individual sequences or fasta files. Also, a tutorial is hosted on the [PTFSpot](https://scbb.ihbt.res.in/PTFSpot/implement.php) web-server.
 
 ## Package installation
 

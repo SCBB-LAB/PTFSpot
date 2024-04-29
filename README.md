@@ -49,7 +49,7 @@ The latest version of the package can be downloaded from the GitHub [repository]
 3. genomic_sequence = example fasta sequence.
 4. PTFSpot.sh = Shell execution script.
 5. bimodal.h5  = Universal Transformer-DenseNet System.
-6. pdbpar.py = pdb file parser
+6. pdbset.py = pdb file parser
 7. ptfspot.py = universal model script
 ```
 

@@ -91,5 +91,5 @@ TFBS detection module gives output in following format
 
 ## Citation
 
-Citation: Gupta S, Kesarwani V, Bhati U, Jyoti, Shankar R (2024) Deep co-learning on transcription factors and their binding regions attains impeccable universality in plants. bioRxiv 2024. <a href="https://doi.org/10.1101/2023.11.16.567355">Read research article here</a>.
+Citation: Gupta S, Kesarwani V, Bhati U, Jyoti, Shankar R (2024) PTFSpot: deep co-learning on transcription factors and their binding regions attains impeccable universality in plants. Briefings in Bioinformatics 2024. <a href="https://doi.org/10.1093/bib/bbae324">Read research article here</a>.
 

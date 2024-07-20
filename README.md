@@ -84,10 +84,9 @@ python3 make-plot.py seq1.csv (filename) (generated plots are interactive)
 
 ## Output description
 
-TFBS detection module gives output in following format 
+TFBR detection module gives output in following format:
 
-1. ABF1_genomic_sequence.txt = TF binding regions result
-
+1. ABF1_genomic_sequence.txt = TF binding regions result. This output is a TFBR of length 160 bases, these binding regions could be harbouring binding sites for the given TF. Further motif and binding sites (TFBS) can be analysed using PTF-Vac, which can be found at [here](https://scbb.ihbt.res.in/PTF-Vac).
 
 ## Citation
 
